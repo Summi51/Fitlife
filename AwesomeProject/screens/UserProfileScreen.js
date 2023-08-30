@@ -13,6 +13,7 @@ function UserProfileScreen({ navigation }) {
 
   };
 
+  
   return (
     <View style={styles.container}>
       <Text style={styles.title}>User Profile</Text>
