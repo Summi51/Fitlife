@@ -8,12 +8,11 @@ function UserProfileScreen({ navigation }) {
   const [gender, setGender] = useState("");
 
   const saveProfile = () => {
-
     console.log("Saving Profile:", { name, age, gender });
 
   };
 
-  
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>User Profile</Text>
